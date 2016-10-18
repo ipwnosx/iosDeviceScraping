@@ -1,0 +1,4 @@
+.DS_Store
+
+# PhpStorm の プロジェクトファイルは無視
+.idea/*
