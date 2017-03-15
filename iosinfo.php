@@ -166,11 +166,11 @@ if (php_sapi_name() == 'cli') {
 
         $body .= "パラメータ一覧<br>";
         $body .= "・jsonデータを取得する　?type=json<br>";
-        $body .= "　　　　整形する　?type=json&format=true<br>";
-        $body .= "　　　　jsonファイルとしてダウンロードする  ?type=json&file=true<br>";
-        $body .= "　　　　jsonファイルとして整形してダウンロードする  ?type=json&file=true&format=true<br>";
-        $body .= "・objective-c の NSDictionary としてデータを取得する　?type=obc<br>";
-        $body .= "・swift の Dictionary としてデータを取得する　?type=swift<br>";
+        $body .= "　　　　整形する　<a href=\"?type=json&format=true\" target='_blank'>?type=json&format=true</a><br>";
+        $body .= "　　　　jsonファイルとしてダウンロードする  <a href=\"?type=json&file=true\" target='_blank'>?type=json&file=true</a><br>";
+        $body .= "　　　　jsonファイルとして整形してダウンロードする  <a href=\"?type=json&file=true&format=true\" target='_blank'>?type=json&file=true&format=true</a><br>";
+        $body .= "・objective-c の NSDictionary としてデータを取得する　<a href=\"?type=obc\" target='_blank'>?type=obc</a><br>";
+        $body .= "・swift の Dictionary としてデータを取得する　<a href=\"?type=swift\" target='_blank'>?type=swift</a><br>";
 
         $body .= "<br><br><br>";
 
